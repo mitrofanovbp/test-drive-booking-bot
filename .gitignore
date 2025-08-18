@@ -1,0 +1,25 @@
+# Build
+/target/
+
+# IDEs
+/.idea/
+/.vscode/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Env files (keep example)
+.env
+.env.*
+!.env.example
+
+# DB
+/pgdata/
+
+# Logs
+*.log
+
+# Local override props (do not commit secrets)
+application.properties
