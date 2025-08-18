@@ -34,10 +34,6 @@ Production-minded: clean architecture, DTOs, Flyway migrations, global exception
   * [Security](#security)
   * [Health & Troubleshooting](#health--troubleshooting)
   * [Backups](#backups)
-* [Contributing](#contributing)
-* [License](#license)
-* [Consistency Checklist](#consistency-checklist)
-
 ---
 
 ## Features
