@@ -9,6 +9,7 @@ Production-minded: clean architecture, DTOs, Flyway migrations, global exception
 ## Table of Contents
 
 * [Features](#features)
+* [Workflow screenshots](#workflow-screenshots)
 * [Architecture](#architecture)
 * [Tech Stack](#tech-stack)
 * [Domain Model](#domain-model)
@@ -52,6 +53,30 @@ Production-minded: clean architecture, DTOs, Flyway migrations, global exception
 * **Partial unique index** prevents double-booking per `(car_id, datetime)` for `status='CONFIRMED'`
 * Clean code: DTOs, transactional services, and a **global exception handler** returning unified `ApiError` JSON
 * Dockerized app & DB with healthcheck and pragmatic logging
+
+---
+
+## Workflow screenshots
+### Welcome message
+![](workflow_screenshots/welcome.png)
+
+### Cars list
+![](workflow_screenshots/cars.png)
+
+### Choose day
+![](workflow_screenshots/choose_day.png)
+
+### Choose time
+![](workflow_screenshots/choose_time.png)
+
+### Confirm booking
+![](workflow_screenshots/confirm_booking.png)
+
+### Next action
+![](workflow_screenshots/next_action.png)
+
+### Booking list
+![](workflow_screenshots/booking_list.png)
 
 ---
 
